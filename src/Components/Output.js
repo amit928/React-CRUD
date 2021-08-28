@@ -28,18 +28,11 @@ class Output extends Component {
                     <button onClick={this.props.onedit.bind(null, item)}>Edit</button>
                     <button onClick={this.props.ondelete.bind(null, item)}>Delete</button>
                   </td>
-
                 </tr>
-
               );
             })}
           </tbody>
-
-
-
-
         </table>
-
       </div>
     )
   }
